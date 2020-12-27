@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+}
+body .red {
+  background-image: url("main-bg1.png");
+  background-size: 100%;
+  background-position: bottom;
+}
+body .blue {
+  background-image: url("main-bg1.png");
+  background-size: 100%;
+  background-position: bottom;
+}
+footer {
+  color: white;
+  height: 100vh;
+  text-align: center !important;
+}
+footer p {
+  padding-top: 10px;
+}
+footer.red {
+  background-position: top;
+  background-image: url("footer-bg1.png");
+  background-repeat: no-repeat;
+}
+footer.blue {
+  background-position: top;
+  background-image: url("footer-bg1.png");
+  background-repeat: no-repeat;
+}
+.App {
+  min-height: 595px;
+}
+h1 {
+  font-family: Rancho;
+  font-weight: 500 !important;
+  color: white;
+  color: rgba(255, 255, 255, 0.9);
+}
+.nice-dates-navigation, .nice-dates-day {
+}
+span.nice-dates-navigation_current {
+  font-family: Rancho;
+  font-size: 1.5em;
+}
+.nice-dates-popover {
+  box-shadow: none;
+  transition: none;
+  left: 0;
+  right: 0;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.red .nice-dates-day:before {
+  background-color: #97050F !important;
+}
+.blue .nice-dates-day:before {
+  background-color: #2561A7 !important;
+}
+.input {
+  font-family: Oswald;
+  color: white;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.5em;
+  text-align: center;
+  width: 10ch;
+  border: none;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 6px;
+  background-color: transparent;
+}
+.input.red {
+  background-image: url("datepicker-bg-red.png");
+}
+.input.blue {
+  background-image: url("datepicker-bg-blue.png");
+}
+span.nice-dates-day:before, .nice-dates-day:after {
+  border-radius: 0 !important;
+}

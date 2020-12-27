@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  font-family: 'Oswald', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#footer-content {
+  color: white;
+  text-align: center;
+}
+footer .red {
+  background-position: top;
+  background-repeat: no-repeat;
+}
+footer .blue {
+  background-color: #00336D;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  min-height: 100vh;
+}

@@ -39,7 +39,7 @@ export default function Gallery ({ publicEvent }) {
     if (selfies) {
         return (
             <div className={`App ${color}`}>
-                <h1>Please select the date you uploaded your photo</h1>
+                <h1>Please select the date you shared your photo</h1>
                 <DatePicker date={daySelected} onDateChange={setDay} locale={userLocale} format={dateFormat}>
                   {({ inputProps, focused }) => (
                     <input

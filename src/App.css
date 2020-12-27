@@ -1,33 +1,14 @@
-body {
-  text-align: center;
-}
 body .red {
-  background-image: url("main-bg1.png");
-  background-size: 100%;
-  background-position: bottom;
+  /*background-image: url("main-bg1.png");*/
 }
 body .blue {
-  background-image: url("main-bg1.png");
+  /*background-image: url("main-bg1.png");*/
+}
+body {
+  text-align: center;
   background-size: 100%;
   background-position: bottom;
-}
-footer {
-  color: white;
-  height: 100vh;
-  text-align: center !important;
-}
-footer p {
-  padding-top: 10px;
-}
-footer.red {
-  background-position: top;
-  background-image: url("footer-bg1.png");
-  background-repeat: no-repeat;
-}
-footer.blue {
-  background-position: top;
-  background-image: url("footer-bg1.png");
-  background-repeat: no-repeat;
+  background-color: #FAFAFA;
 }
 .App {
   min-height: 595px;
@@ -35,9 +16,11 @@ footer.blue {
 h1 {
   font-family: Rancho;
   font-weight: 500 !important;
-  color: white;
-  color: rgba(255, 255, 255, 0.9);
 }
+
+/* Datepicker Styles */
+/*********************/
+
 .nice-dates-navigation, .nice-dates-day {
 }
 span.nice-dates-navigation_current {
@@ -45,7 +28,7 @@ span.nice-dates-navigation_current {
   font-size: 1.5em;
 }
 .nice-dates-popover {
-  box-shadow: none;
+  /*box-shadow: none;*/
   transition: none;
   left: 0;
   right: 0;
@@ -79,4 +62,37 @@ span.nice-dates-navigation_current {
 }
 span.nice-dates-day:before, .nice-dates-day:after {
   border-radius: 0 !important;
+}
+/*********************/
+/*********************/
+
+/* Photos/Selfies */
+/******************/
+
+.left-pad {
+  padding:10px;
+}
+/******************/
+
+footer {
+  color: white;
+  /*height: 100vh;*/
+  height: 250px;
+  text-align: center !important;
+  padding-top:50px;
+}
+footer p {
+  padding-top: 10px;
+}
+footer.red {
+  background-position: top;
+  /*background-image: url("footer-bg1.png");*/
+  background-color: #97050F;
+  background-repeat: no-repeat;
+}
+footer.blue {
+  background-position: top;
+  background-color: #2561A7;
+  /*background-image: url("footer-bg1.png");*/
+  background-repeat: no-repeat;
 }
